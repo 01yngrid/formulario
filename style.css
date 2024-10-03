@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #567bccc0;
+    background-image:url( https://cdn.pixabay.com/photo/2022/11/09/14/13/forest-7580700_960_720.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+
+     
+}
+
+form{
+
+    background-color: rgba(119, 115, 113, 0.657);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 0 10px #0d0d0d, 10px 0px 10px rgb(37, 35, 35);
+    margin-left: 35%;
+    
+}
+
+label{ 
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+ input[type="text"],
+ input[type="password"],
+ input[type="email"],
+ input[type="number"],
+ input[type="url"],
+ input[type="tel"],
+ input[type="date"],
+ input[type="color"],
+ select,
+ textarea{
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid rgb(1, 1, 1);
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: calc(100% - 25px)
+ }
+ 
+ input[type="renge"]{
+    width: 100%;
+    margin-bottom: 10px;
+ }
+
+ input[type="checkbox"],
+ input[type="radio"]{
+    margin: 5px;
+ }
+ input[type="file"]{
+    margin-top: 10px;
+ }
+ button{
+    width: 30%;
+    padding: 10px;
+    background-color: #2c77d3c5;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+ }
+
+ 
+
+button:hover{
+    background-color: rgb(239, 238, 238);
+}
+ .small-input{
+    width: auto;
+    display: inline-block;
+ }
+ .inline-label{
+    display: inline-block;
+    margin-right: 10px;
+ }
+
+ h1{
+
+    text-align: center;
+   background-color: rgba(175, 188, 200, 0.703);
+   border-radius: 20px;
+ }
+
+  
